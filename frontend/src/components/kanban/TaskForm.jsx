@@ -402,18 +402,18 @@ export const TaskForm = ({ task, isOpen, onClose }) => {
           </Button>
           <Button
             type="submit"
-            className="flex items-center bg-indigo-600 hover:bg-indigo-700"
+            className="flex items-center bg-indigo-600 hover:bg-indigo-700 rounded-xl text-white"
           >
             {task ? (
-              <>
+              <div className="px-3 py-2 flex items-center">
                 <CheckIcon className="h-4 w-4 mr-1.5" />
                 Update Task
-              </>
+              </div>
             ) : (
-              <>
+              <div className="px-3 py-2 flex items-center">
                 <PlusCircleIcon className="h-4 w-4 mr-1.5" />
                 Create Task
-              </>
+              </div>
             )}
           </Button>
         </motion.div>
