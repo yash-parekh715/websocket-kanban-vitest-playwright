@@ -13,7 +13,9 @@
   "dependencies": {
     "@playwright/test": "^1.50.1",
     "@testing-library/react": "^16.2.0",
+    "dotenv": "^16.5.0",
     "express": "^4.21.2",
+    "mongoose": "^8.13.2",
     "nodemon": "^3.1.9",
     "socket.io": "^4.8.1",
     "vitest": "^3.0.7"
